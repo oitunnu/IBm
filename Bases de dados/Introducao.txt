@@ -1,0 +1,41 @@
+	• Trabalharemos com implementação de banco de dados
+	• Projetos em grupo
+	• Laboratório no meio do semestre
+	• SGBD: sistema gerenciador de base de dados; banco de dados = informações guardadas; Exemplos: MySQL, PostgreSQL, SQL server, Oracle; todos exemplos são RO, ou seja, relacional-objeto
+	• DBA: database administrator, profissional da área
+	• Modelagem: estruturação dos dados
+	• Banco de dados = base de dados
+	• Tuning: monitorar a base de dados
+
+Objetivos
+	- Trabalhar com bancos de dados relacionais
+	- Administrar banco de dados; entre outros
+
+Ementa
+	- Organização
+	- Modelagem de dados -> projetar
+	- Linguagem SQL
+	- Arquitetura de um SGBD
+	- Prática de modelagem e implementação
+
+Bibliografia
+	- Sistemas de banco de dados, de Elmasri, R. ou de Korth, H. F.
+	- Implementação de sistemas de bancos de dados, de Molina, H. G.
+	- Consultar extra:
+		○ Damas L. ou Date C. J.
+
+Definições
+	▪ Banco de dados: conjunto de dados com uma organização/estrutura específica
+	▪ SGBD (sistema gerenciador de base de dados): conjunto de programas para facilitar a manipulação do banco de dados
+	▪ Banco de dados + SGBD = sistema de banco de dados (SBD)
+		○ SBD: fornece armazenamento eficiente, confiável; é possível colocar parte dos dados em locais diversos; os dados são massivos e persistentes (não somem)
+
+Vantagens
+	- Consistência: minimizar incoerências
+	- Integração e padronização
+	- Independência de dados e operações
+	- Sistemas distribuídos
+	- Compartilhamento: controle de concorrência; execução de transações
+	- Representação de relacionamentos
+	- Segurança: back-up; restrições específicas
+	- Deduções e ações: regras e gatilhos -> necessita de uma linguagem procedural para programar esses comandos --->> PL/SQL; (SQL é uma linguagem declarativa)
