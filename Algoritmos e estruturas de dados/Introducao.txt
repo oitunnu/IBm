@@ -1,0 +1,25 @@
+Objetivos
+	- Estruturas de dados lineares(pilhas, filas e listas) e não-lineares(árvores)
+	- Manipulação e armazenamento de dados
+
+Exemplo:
+Vetor com registros
+Cada item do vetor contém vários dados referentes a um registro, como por exemplo, um aluno. Um novo registro é colocado no final do último registro.
+
+Limitações do vetor
+	→ Ao criar um vetor, você cria já com um tamanho específico, podendo não usar tudo, portanto a memória não é usada de modo eficiente.
+			§ Aloca-se M registros
+			§ Memória = O(M) (lê-se ó de m); é proporcional, mais demorado
+			§ N registros
+		○ Solução:
+			§ Alocação dinâmica
+			§ Alocar conforme a necessidade
+				□ Estrutura de dados
+	→ Tempo computacional
+		Complexidade/tempo	Inserção	Remoção	Busca
+		Vetor não-ordenado	O(1) [independente, constante]	O(N)	O(N)
+		Vetor ordenado com busca binária	O(N)	O(N)	O(log2 N)
+		○ Solução:
+			§ Estrutura de dados: árvore
+
+	v Paradigma de programação orientada a objetos
