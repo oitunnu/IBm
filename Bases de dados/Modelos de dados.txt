@@ -1,0 +1,71 @@
+Modelos de dados
+	- Instância: conjunto de dados existentes no banco em um certo instante
+	- Esquema: estrutura do banco
+	- Modelo de dados: conjunto de conceitos e regras -> projetar o esquema de um banco de dados
+	- Categorias de modelos:
+		○ Modelos conceituais (ou semânticos)
+		○ Modelos físicos
+
+Desenvolvimento de sistemas
+Ciclo de vida:
+	- Requisitos: levantamento de requisitos; documento de especificações (modelagem de banco de dados) de requisitos (características, funcionalidades)
+
+Modelos conceituais
+	- Independentes do SGBD que será utilizado
+	- Alta capacidade de representação do mundo real
+	- Utilizado na etapa inicial de projeto do banco
+	* Modelo entidade-relacionamento (MER)
+
+Modelos físicos
+	- alto grau de acoplamento ao SGBD
+		○ Estrutura de organização dos dados
+	- Modelo em rede (não é mais usado)
+		○ Relacionamentos = ponteiros -> rede
+	- Modelo hierárquico: versão mais restrita do modelo em rede
+		○ Relacionamentos = ponteiros -> árvores
+	* Modelo relacional
+		○ Organização -> tabelas
+		○ Relacionamentos = referências a chaves identificadoras
+
+Modelos orientados a objetos (conceitual e físico)
+	- Recursos para usar características do paradigma da orientação a objetos
+
+Projeto de dados
+Requisitos do sistema:
+	- Nível externo (mapeamento dos requisitos) : diferentes atores com conjunto de requisitos
+Diagrama de relacionamento:
+	- Nível conceitual: esquema conceitual
+Tabelas relacionais
+	- Nível interno: esquema interno
+	
+	- Banco de dados
+
+	→ Modelagem -> modelo entidade-relacionamento (MER)
+	Mundo real = conjunto de entidades + conjunto de relacionamentos + atributos (marca, código, peso...)
+	Representação gráfica = diagrama entidade-relacionamento (DER) -> resultado da modelagem
+	
+	→ Tipos de entidades
+		○ Entidades são os elementos (os "objetos") do mundo real. Ex.: funcionário, departamento, curso
+		○ Tipos de entidade (ou classe) é uma coleção de entidades que possuem mesma estrutura e mesma semântica
+	→ Notação: Aluno       Disciplina
+	
+	→ Tipos de relacionamentos
+		○ Relacionamentos são associações que as entidades realizam entre si
+		○ Tipo de relacionamento é uma coleção de relacionamentos com mesmo significado que ocorrem entre entidades
+		○ Cada entidade cumpre um PAPEL no relacionamento
+
+	→ Cardinalidade do relacionamento
+		○ Valor que indica grau de pluralidade com que uma entidade participa em um relacionamento (verbo)
+		○ Relacionamento é sempre de mão dupla
+		○ Número máximo de entidades em um relacionamento
+			§ Entre dois tipos de entidades, a cardinalidade pode ser:
+			§ 1:1 -> um para um
+			§ 1:N -> um para muitos
+			§ N:M -> muitos para muitos
+				□ A questão temporal entra no relacionamento
+		○ Participação total: 
+			§ Linha dupla = mínimo 1
+			§ Linha simples = mínimo 0
+	→ Outras notações:
+		○ Restrição estrutural: (min, max)
+		○ Unified modeling language (UML)
